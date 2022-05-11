@@ -1,0 +1,22 @@
+	{
+int[] array1 = {211,9,-6,12,34,56,32,5,19};
+int[] array2 = {19,-6, 32};
+bool a= false;
+int counter = 0;
+foreach(int one in array1)
+foreach(int two in array2)
+if(one==two){
+counter++;
+
+}
+if(counter == array2.Length){
+a= true;
+Console.WriteLine(a);
+}
+else{
+Console.WriteLine(a);
+}
+
+}
+
+}
